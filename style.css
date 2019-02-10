@@ -1,4 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600');
+/*** open sans
+
+font-family: 'Open Sans', sans-serif;
+font-weight: 400, 600;
+
+***/
 @import url("https://use.typekit.net/gih7tav.css");
 /*** font type kit usage 
 
@@ -26,10 +32,70 @@ font-weight: 300;
 @font-face{font-family:'VistaSansAltBook';src:url('fonts/VistaSansAltBook.woff') format("woff")}
 @font-face{font-family:'VistaSansAltBookIta';src:url('fonts/VistaSansAlt-BookIta.woff') format("woff")}
 
+h1 {
+   font-family: 'VistaSansAltBookIta','Open Sans',sans-serif;
+   text-align: center;
+   color: #44474b;
+   margin-bottom: 20px;
+}
+
+h2 {
+   font-family: 'Open Sans',sans-serif;
+   text-align: center;
+   color: black;
+   font-size: 28px;
+   font-weight: 600;
+   margin-bottom: 20px;
+}
+
+h5 {
+   margin-bottom: 20px;
+}
+
+p {
+   font-family: vista-sans-narrow,'Open Sans',sans-serif;
+   font-weight: 300;
+    font-size: 18px;
+    line-height: 1.56;
+    text-align: center;
+    color: #59595c;
+}
+
+hr {
+   border: solid 1px #59595c;
+   margin: 50px 0 50px 0;
+}
+
+.my-button {
+   font-family: 'Open Sans',sans-serif;
+   text-align: center;
+   color: white;
+   font-size: 16px;
+   font-weight: 600;
+   border: 0;
+   border-radius: 100px;
+   padding: 10px 30px;
+}
+
+.center{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.img-fit {
+   width: 100%
+}
+
 .navbar {
    min-height: 144px;
    background-color: #ffffff;
    background-image: linear-gradient(95deg, #c9dfab, #99bb72 95%, #99bb72);
+}
+
+.menu-icon {
+   font-size: 30px;
+   color: white;
 }
 
 .nav-logo {
@@ -57,17 +123,104 @@ font-weight: 300;
    color: darkgreen !important;
 }
 
-h1 {
-   font-family: 'VistaSansAltBookIta','Open Sans',sans-serif;
-   text-align: center;
-   color: #44474b;
+.btn-donate {
+   padding: 5px 15px;
+   height: 34px;
+   width: 121px;
+   margin-top: 5px;
+   position: relative;
+   float:right;
+
+   font-family: vista-sans-narrow,'Open Sans',sans-serif;
+   font-weight: 500;
+   font-size: 18px;
+   font-weight: normal;
+   font-style: normal;
+   font-stretch: normal;
+   line-height: normal;
+   letter-spacing: .3px;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+   color: #ffffff;
+   border: solid 2px #ffffff;
+   border-radius: 17px;
+   padding: 5px 10px;
+   text-decoration: none;
+   text-transform: uppercase;
+   vertical-align: middle;
 }
 
-p {
-   font-family: vista-sans-narrow,'Open Sans',sans-serif;
-   font-weight: 300;
-    font-size: 18px;
-    line-height: 1.56;
-    text-align: center;
-    color: #59595c;
+.divider-bar {
+   width: 100%;
+   height: 8px;
+   margin:0;
+}
+
+.purple {
+   background-color: #bdb9d1;
+}
+.red {
+   background-color: #e09798;
+}
+.yellow {
+   background-color: #eecd6a;
+}
+.blue {
+   background-color: #a4d2e1;
+}
+
+.title-text {
+   max-width: 600px;
+   margin: 80px auto 50px auto;
+}
+
+.step {
+   margin-bottom:50px;
+}
+
+.step-img {
+   margin-bottom: 15px;
+}
+
+.how-to-donate {
+   height: 160px;
+   margin-bottom: 30px;
+}
+
+.used-donation-img {
+   width: calc(100% - 8px);
+   height: 160px;
+   overflow: hidden;
+}
+
+.color-right {
+   width: 8px;
+}
+
+.how-to-donate-title {
+   height: 50px;
+   width: calc(100% - 8px);
+   background-color: #44474b;
+   position: relative;
+   top: -100px;
+   opacity: .45;
+}
+
+.how-to-donate h1 {
+   color: white;
+   position: relative;
+   top: -145px;
+   text-align: center;
+}
+
+.used-donation-methods{
+
+}
+
+.used-donation-methods h1 {
+   text-align: left;
+}
+
+.used-donation-methods p {
+   text-align: left;
 }
