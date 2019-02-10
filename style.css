@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url("https://use.typekit.net/gih7tav.css");
+/*** font type kit usage 
+
+Vista Sans Nar OTCE Bold
+font-family: vista-sans-narrow, sans-serif;
+font-weight: 700;
+
+Vista Sans Nar OTCE Reg
+font-family: vista-sans-narrow, sans-serif;
+font-weight: 500;
+
+Vista Sans Nar OTCE Reg
+font-family: vista-sans-narrow, sans-serif;
+font-weight: 400;
+
+Vista Sans Nar OTCE Book
+font-family: vista-sans-narrow, sans-serif;
+font-weight: 300;
+
+***/
+@font-face{font-family:'VistaSansAlt-Black';src:url('fonts/VistaSansAlt-Black.woff') format("woff")}
+@font-face{font-family:'VistaSansAlt-BlackIta';src:url('fonts/VistaSansAlt-BlackIta.woff') format("woff")}
+@font-face{font-family:'VistaSansAltMed';src:url('fonts/VistaSansAltMed.woff') format("woff")}
+@font-face{font-family:'VistaSansAltMedIta';src:url('fonts/VistaSansAltMedIta.woff') format("woff")}
+@font-face{font-family:'VistaSansAltBook';src:url('fonts/VistaSansAltBook.woff') format("woff")}
+@font-face{font-family:'VistaSansAltBookIta';src:url('fonts/VistaSansAlt-BookIta.woff') format("woff")}
+
+.navbar {
+   min-height: 144px;
+   background-color: #ffffff;
+   background-image: linear-gradient(95deg, #c9dfab, #99bb72 95%, #99bb72);
+}
+
+.nav-logo {
+   width: 100px;
+}
+
+.nav-item {
+   margin-left: 45px;
+}
+
+.nav-link {
+   font-family: vista-sans-narrow,'Open Sans',sans-serif;
+   font-weight: 500;
+   font-size: 20px;
+   letter-spacing: .7px;
+   color: #ffffff !important;
+    text-transform: uppercase;
+}
+
+.nav-link:hover {
+   opacity: 0.6;
+}
+
+.nav-link:active {
+   color: darkgreen !important;
+}
+
+h1 {
+   font-family: 'VistaSansAltBookIta','Open Sans',sans-serif;
+   text-align: center;
+   color: #44474b;
+}
+
+p {
+   font-family: vista-sans-narrow,'Open Sans',sans-serif;
+   font-weight: 300;
+    font-size: 18px;
+    line-height: 1.56;
+    text-align: center;
+    color: #59595c;
+}
