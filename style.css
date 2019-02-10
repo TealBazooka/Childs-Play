@@ -74,7 +74,7 @@ hr {
    font-weight: 600;
    border: 0;
    border-radius: 100px;
-   padding: 10px 30px;
+   padding: 10px 20px;
 }
 
 .center{
@@ -223,4 +223,11 @@ hr {
 
 .used-donation-methods p {
    text-align: left;
+}
+
+.green-line {
+   background-color: #99bb72;
+   height:2px;
+   width: 80%;
+   margin: 50px 0;
 }
